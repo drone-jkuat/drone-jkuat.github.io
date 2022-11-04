@@ -14,37 +14,55 @@
         <script src="js/main.js"></script>
     </head>
     <body>
-        <section class="hero is-info is-medium is-bold">
-            <div class="hero-head">
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="navbar-brand">
-                            <a class="navbar-item" href="../">
-                                <img src="./image/drg_logo_white.png" alt="Logo">
-                            </a>
-                            <span class="navbar-burger burger" data-target="navbarMenu">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-                        </div>
-                        <div id="navbarMenu" class="navbar-menu">
-                            <div class="navbar-end">
-                                <div class="tabs is-right">
-                                    <ul>
-                                        <li><a href="about.html">About</a></li>
-                                        <li class="is-active"><a href="members.html">Members</a></li>
-                                        <li><a href="activities.html">Activities</li></a></li>
-                                        <li><a href="research.html">Research</li></a></li>
-                                        <li><a href="equipment.html">Equipment</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="/">
+                <img src="image/drg_logo.png" height="28">
+            </a>
+    
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="about.html">
+                    About 
+                </a>
+                <a class="navbar-item" href="members.html">
+                    Members
+                </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                        Activities 
+                    </a>
+                    <div class="navbar-dropdown">
+                        <a class="navbar-item" href="research.html">
+                            Research
+                        </a>
+                        <a class="navbar-item" href="training.html">
+                            Training 
+                        </a>
+                        <a class="navbar-item" href="design.html">
+                            Design and fabrication
+                        </a>
+                        <a class="navbar-item" href="testing.html">
+                            Performance testing
+                        </a>
+                        <a class="navbar-item" href="consultancy.html">
+                            Consultancy
+                        </a>
                     </div>
-                </nav>
+                </div>
+                <a class="navbar-item" href="equipment.html">
+                    Equipment
+                </a>
             </div>
-        </section>
+        </div>
+    </nav>
 
         <section class="section">
             <div class="container has-text-centered">

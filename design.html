@@ -6,24 +6,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Drone Research Group at JKUAT</title>
-    <link rel="shortcut icon" href="image/fav_icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/fav_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <!-- Bulma Version 0.9.0-->
     <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/bulma-modal-fx/dist/css/modal-fx.min.css" />
     <script src="js/main.js"></script>
-    <style>
-        .has-bg-img {
-            background: url('image/top.webp')center center;
-            background-size: cover;
-        }
-    </style>
-
+    <link rel="stylesheet" href="css/main.css" />
 </head>
 
 <body>
-
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a class="navbar-item" href="/">
@@ -74,30 +67,44 @@
         </div>
     </nav>
 
-    <section class="hero is-info is-medium is-bold">
-        <div class="hero-body has-bg-img">
-            <div class="container has-text-centered">
-                <h1 class="title">
-                    Drone Research Group at Jomo Kenyatta University of Agriculture and Technology
-                </h1>
-                <h2 class="subtitle">
-                    Spearheading research, education, and training using UAV
-                </h2>
-            </div>
-        </div>
-    </section>
-    <div class="box cta">
-        <p class="has-text-centered">
-            <span class="tag is-primary">New</span> Drone research group visited Advanced Control System Laboratory
-            (ACSL) at Tokyo City University for benchmarking drone research.
-        </p>
-    </div>
+
     <section class="container">
         <div class="intro column is-8 is-offset-2">
-            <h2 class="title">Welcome to our website!</h2>
-            <p class="subtitle" style="margin-top:20px;">Welcome to the JKUAT Drone Research Group Website. We are
-                willing to collaborate with industrial and academic partners.</p>
+            <h2 class="title" style="margin-top:40px;">Drone design, fabrication, and modification</h2><br>
+            <h2 class="subtitle is-size-4">Anga2</h2>
+            <div class="tile is-ancestor">
+                <div class="tile is-parent">
+                    <img src="image/drone/drone5.webp" />
+                </div>
+                <div class="tile is-parent">
+                    <img src="image/drone/drone2.webp" />
+                </div>
+                <div class="tile is-parent">
+                    <img src="image/drone/drone4.webp" />
+                </div>
+            </div>
+            <p>Anga2 is one of our multirotor drones weighing approximately 1.8kgs with a payload camera capable of live video transmission to a handheld monitor. 
+               The flight control was implemented with a Pixhawk flight controller board compatible with a PPM receiver for remote control. 
+               The functioning of every module was achieved through proper calibrations using mission planner.
+               ESP32 board is implemented for live video streaming over Wi-Fi. 
+               Anga2 arming is based on GPS locking system for initialization of flight through firing up of the electronic speed controllers and the ReadytoSky BLDC motors for a flight time of approximately 20 minutes.</p> 
+            <br>
+
+            <p>With the recent research advancements in artificial intelligence, our design and implementation are currently geared towards development of intelligent drones capable of operating autonomously in unknown and uncertain environments while performing a task. </p>
+            <br>
+
+            <p>N/B, FYI: Anga is Swahili for sky. Initially we fabricated Anga1 using wooden arms. 
+               It was problematic to laser cut precisely equal weights and therefore we had challenges in the dynamics. 
+               The flight controller was also based on Arduino. Having the arms break every time it fell during testing was also a big problem.
+            </p>
+            <br>
+
+            <div class="videoWrapper">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VJCjgptZQpA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         </div>
+
+
     </section>
 
     <div style="margin:50px;"></div>
